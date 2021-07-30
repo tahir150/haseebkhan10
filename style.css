@@ -1,0 +1,193 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+/* body{
+    background-color: rgb(180, 180, 180);
+    color: rgb(75, 75, 75);
+    font-family: sans-serif;
+    transition: .5s;
+    transition: .5s;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+/* #container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#quiz , #resultDiv{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(34, 34, 34, 0.37);
+    position: relative;
+}
+#quiz h2{
+    color: rgb(0, 163, 192);
+    font-size: 20px;
+    margin: 20px 10px;
+}
+#quiz ul{
+    list-style: none;
+    margin: 30px 0;
+}
+#quiz ul li{
+    margin: 15px;
+}
+#quiz #Quizbuttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    position: absolute;
+    bottom: 0%;
+}
+#Quizbuttons .button , #resultDiv .button{
+    background: rgb(0, 163, 192);
+    color: white;
+    padding: 6px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+#Quizbuttons .button:hover , #resultDiv .button:hover{
+    background: rgb(1, 132, 155);
+}
+#resultDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+#resultDiv h2{
+    margin: 30px 0;
+    text-align: center;
+}
+#resultDiv *{
+    margin: 20px 10px;
+} */
+.likeContainer{
+    position: absolute;
+}
+.likeCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:200px;
+    border-bottom: 3px solid rgb(46, 46, 46);
+    color: rgb(112, 112, 112);
+    font-family: sans-serif;
+}
+.likeCont *{
+    font-size: 23px;
+    user-select: none;
+}
+.like ,.dislike{
+    cursor: pointer;
+    z-index: 1;
+    transition: 0s;
+}
+.fa-thumbs-down{
+    transform: rotateY(180deg);
+}
+.likeCount span , .dislikeCount span{
+    font-size: 80%;
+}
+.colored {
+    color: rgb(0, 158, 221);
+}
+.width{
+    position: absolute;
+    bottom: 0px;
+    height: 3px;
+    width: 100%;
+    background: black;
+    transition: .5s;
+}
+.useLess{
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+    background: transparent;
+    z-index: 0;
+    width: 100%;
+}
+.coloredWidth{
+    background-color: rgb(0, 158, 221);
+}
+.NotColoredWidth {
+    background-color: rgb(100, 99, 99);
+}
+abbr{
+    text-decoration: none;
+}
+.abbrr{
+    top: -100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , 0);
+    color: rgb(207, 207, 207);
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius: 3px;
+    padding: 6px 7px;
+    transition: .3s;
+    font-weight: 600;
+    user-select: none;
+    opacity: 0;
+}
+.UserForm{
+    position: absolute;
+    top: 100%;
+    padding: 5px;
+    margin-top: 15px;
+    overflow: hidden;
+    width: 220px;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+.form input{
+    border: none;
+    outline: none;
+    padding: 5px 6px;
+    margin: 6px;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px black;
+}
+.form {
+    box-shadow: 0px 0px 5px black;
+    padding: 15px 3px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.form input::placeholder{
+    color: rgba(0, 0, 0, 0.507);
+    font-weight: 600;
+}
+.form button{
+    background: transparent;
+    box-shadow: 0px 0px 5px black;
+    color: rgba(0, 0, 0, 0.507);
+    font-weight: 600;;
+    margin: 0px 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
